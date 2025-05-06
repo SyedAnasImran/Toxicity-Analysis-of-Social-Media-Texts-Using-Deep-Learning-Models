@@ -39,7 +39,7 @@ Precision
 Recall
 F1-score
 
-#Summary
+# Summary
 LSTM models perform well and are lightweight.
 Transformer model (DistilBERT) achieves better accuracy but requires more computational resources.
 
