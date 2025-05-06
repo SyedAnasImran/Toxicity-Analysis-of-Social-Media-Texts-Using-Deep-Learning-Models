@@ -1,5 +1,6 @@
 # Toxicity-Analysis-of-Social-Media-Texts-Using-Deep-Learning-Models
-This project focuses on detecting fake news using deep learning techniques. It compares traditional LSTM-based models with a Transformer-based model (DistilBERT) from Hugging Face for binary text classification.
+This project uses  LSTMs and Transformer-based models from Hugging Face to Detect and Analyze Offensive Speech in SOcial media texts. Fine-tuned pre-trained models on the Hate Speech Detection curated dataset from Kaggle.
+
 
 Project Files
 dlp_project LSTM.ipynb: Implements LSTM, Bidirectional LSTM, and LSTM with Dropout.
@@ -9,17 +10,14 @@ dlp_project_HF.ipynb: Implements fine-tuning of the DistilBERT model using Huggi
 Dataset:
 https://www.kaggle.com/datasets/waalbannyantudre/hate-speech-detection-curated-dataset
 The dataset contains labeled news articles:
-1: Real news
-0: Fake news
+1: Hate Content
+0: Clean Content
 
 Preprocessing includes cleaning text, removing nulls, and tokenization.
 
 Models Used
-LSTM
-
-Transformer-based:
-
-DistilBERT (pretrained model from Hugging Face)
+LSTMs
+Transformer | DistilBERT (pretrained model from Hugging Face)
 
 Requirements
 bash
