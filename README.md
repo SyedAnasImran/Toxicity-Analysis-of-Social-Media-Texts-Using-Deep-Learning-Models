@@ -1,4 +1,4 @@
-# Toxicity-Analysis-of-Social-Media-Texts-Using-Deep-Learning-Models
+# Toxicity Analysis of Social Media Texts Using Deep Learning Models
 This project uses  LSTMs and Transformer-based models from Hugging Face to Detect and Analyze Offensive Speech in SOcial media texts. Fine-tuned pre-trained models on the Hate Speech Detection curated dataset from Kaggle.
 
 
